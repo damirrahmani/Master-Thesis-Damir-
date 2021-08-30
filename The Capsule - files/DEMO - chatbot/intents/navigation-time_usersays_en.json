@@ -1,0 +1,115 @@
+[
+  {
+    "id": "baf73e68-7f7c-41f7-ba10-f45b9f310068",
+    "data": [
+      {
+        "text": "estimate time required to reach ",
+        "userDefined": false
+      },
+      {
+        "text": "company",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "adeee0a3-0932-4838-a80c-041b13ba9e29",
+    "data": [
+      {
+        "text": "estimate time to reach ",
+        "userDefined": false
+      },
+      {
+        "text": "Skynet",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c8834cd4-996e-4174-9a2a-d0b558635067",
+    "data": [
+      {
+        "text": "how long will it take to reach the ",
+        "userDefined": false
+      },
+      {
+        "text": "company",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f3cbc7ee-593c-481d-8d24-8d2e4f41449d",
+    "data": [
+      {
+        "text": "is it possible to reach Skynet in ",
+        "userDefined": false
+      },
+      {
+        "text": "4",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "hours",
+        "meta": "@unit-time",
+        "alias": "unit-time",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "721c9504-f252-4ca8-8b00-4a1eaec324bc",
+    "data": [
+      {
+        "text": "how much time until I reach the ",
+        "userDefined": false
+      },
+      {
+        "text": "destination",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

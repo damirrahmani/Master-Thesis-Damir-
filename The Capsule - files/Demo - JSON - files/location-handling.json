@@ -1,0 +1,62 @@
+
+const functions = require("firebase-functions");
+const { dialogflow, Permission, SimpleResponse } = require("actions-on-google");
+
+const app = dialogflow();
+
+
+app.intent("Default Welcome Intent", conv => {
+  conv.data.requestedPermission = "DEVICE_PRECISE_LOCATION";
+  conv.ask(new SimpleResponse('Welcome to location tracker'));
+  return conv.ask(
+    new Permission({
+      context: "to locate you",
+      permissions: conv.data.requestedPermission
+    })
+  );
+});
+
+
+app.intent("get_current_location", (conv, params, permissionGranted) => {
+  if (permissionGranted) {
+    const { requestedPermission } = conv.data;
+    let address;
+    if (requestedPermission === "DEVICE_PRECISE_LOCATION") {
+      const { coordinates } = conv.device.location;
+      console.log('coordinates are', coordinates);
+
+      if (coordinates && address) {
+        return conv.close(new SimpleResponse(`Your Location details ${address}`));
+      } else {
+        // Note: Currently, precise locaton only returns lat/lng coordinates on phones and lat/lng coordinates
+        // and a geocoded address on voice-activated speakers.
+        // Coarse location only works on voice-activated speakers.
+        return conv.close("Sorry, I could not figure out where you are.");
+      }
+    }
+  } else {
+    return conv.close("Sorry, permission denied.");
+  }
+});
+
+
+var options = {
+  provider: 'facebook',
+  httpAdapter: 'https', // Default
+  apiKey: '', // for Mapquest, OpenCage, Google Premier
+  formatter: 'json' // 'gpx', 'string', ...
+};
+    
+var geocoder = NodeGeocoder(options);
+
+geocoder.reverse({lat:coordinates.latitude, lon:coordinates.longitude }).then(function(res) {
+  conv.ask(new SimpleResponse(res[0].formattedAddress));
+}).catch(function(error) {
+  console.log('error is', error);
+});
+
+
+
+
+
+

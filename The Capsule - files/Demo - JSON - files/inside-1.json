@@ -1,0 +1,43 @@
+const
+    express = require('express'),
+    bodyParser = require('body-parser'),
+    app = express().use(bodyParser.json());
+
+app.listen(process.env.PORT || 1337, () => console.log('webhook is listening'));
+
+app.get('/webhook', (req, res) => {
+    let VERIFY_TOKEN = "<YOUR_VERIFY_TOKEN>"
+    let mode = req.query['hub.mode'];
+    let token = req.query['hub.verify_token'];
+    let action = req.body.queryResult.action;
+    let responseJson = {};
+
+    if (mode && token) {
+        if (mode === 'subscribe' && token === VERIFY_TOKEN) {
+
+            if (action === 'facebook.card') {
+                let richResponses = [
+                    {
+                        "card": {
+                            "title": "this is a title",
+                            "subtitle": "this is subtitle",
+                            "imageUrl": "url for a image",
+                            "buttons": [
+                                {
+                                    "text": "Button 1",
+                                    "postback": "some postback"
+                                }
+                            ]
+                        },
+                        "platfrom": "FACEBOOK"
+                    }
+                ];
+
+                responseJson.fulfillmentMessages = richResponses;
+            }
+
+            res.json(responseJson);
+
+        } else {
+            res.sendStatus(403);
+        }

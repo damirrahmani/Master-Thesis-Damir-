@@ -1,0 +1,9 @@
+{
+  "id": "dc6ceb4b-d507-4172-a798-30b92c03b21a",
+  "name": "unit-time",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

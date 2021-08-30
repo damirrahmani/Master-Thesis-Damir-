@@ -1,0 +1,165 @@
+{
+  "id": "dcac4e2c-2248-48c1-af3e-4dc24a83474b",
+  "name": "job-application-details",
+  "auto": true,
+  "contexts": [
+    "job-apply"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "job-apply",
+          "lifespan": 5
+        },
+        {
+          "name": "job-application-details-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "88b12133-5fdd-42b8-bc22-7bb40fc26926",
+          "name": "name",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "50c7cc51-08eb-439f-8d0c-7cedde7ea69a",
+          "name": "surname",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$surname",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your surname?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5a0021f6-0bc1-4dde-83d1-22c7c9d37878",
+          "name": "education-level",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$el",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your educational level?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a4de77ae-1e87-4d3c-b75a-09f5480b6a2b",
+          "name": "yoe",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$yoe",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many years of experience do you have in this field?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "740b0d3e-5bf8-4039-940c-f5fdf3f9f8d2",
+          "name": "number",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your phone number:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you $name.  Your information has been recorded. Do you want to schedule a job interview?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "yes",
+            "no"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

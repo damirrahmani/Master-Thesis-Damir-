@@ -1,0 +1,98 @@
+[
+  {
+    "id": "22d19cd4-9431-4c88-ab46-31188b9c2dc9",
+    "data": [
+      {
+        "text": "navigation on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "84792303-5bb2-4671-9f31-a9fb436de364",
+    "data": [
+      {
+        "text": "turn on navigation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2089e991-86f7-403a-84c0-029d5bb560e6",
+    "data": [
+      {
+        "text": "navigation start",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "31a2023b-4013-46c0-bd9f-659f22c384e0",
+    "data": [
+      {
+        "text": "let\u0027s go to ",
+        "userDefined": false
+      },
+      {
+        "text": "Skynet",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "527f0e7c-db93-4464-9985-0e39dbb7f109",
+    "data": [
+      {
+        "text": "navigate me to the ",
+        "userDefined": false
+      },
+      {
+        "text": "company",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02ee260b-0598-4f4c-a3ef-01ae7239b9fb",
+    "data": [
+      {
+        "text": "navigate to ",
+        "userDefined": false
+      },
+      {
+        "text": "Skynet",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

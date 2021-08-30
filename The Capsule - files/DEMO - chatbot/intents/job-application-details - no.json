@@ -1,0 +1,51 @@
+{
+  "id": "c13e73a3-b8de-4106-b76b-c9f6aabd933e",
+  "parentId": "dcac4e2c-2248-48c1-af3e-4dc24a83474b",
+  "rootParentId": "dcac4e2c-2248-48c1-af3e-4dc24a83474b",
+  "name": "job-application-details - no",
+  "auto": true,
+  "contexts": [
+    "job-apply",
+    "job-application-details-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "job-application-details.job-application-details-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you we will contact you soon. Have a nice day!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

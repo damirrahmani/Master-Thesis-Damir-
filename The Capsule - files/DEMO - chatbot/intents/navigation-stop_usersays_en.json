@@ -1,0 +1,119 @@
+[
+  {
+    "id": "4f0509f4-a77a-4b2c-8754-6f277724ea3d",
+    "data": [
+      {
+        "text": "turn it off please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ab35be4-fd07-4f29-b27b-c6ff68d33dd9",
+    "data": [
+      {
+        "text": "stop it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0fda8f4c-ff60-4825-bdd6-99b3609d5cb5",
+    "data": [
+      {
+        "text": "close it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ddcd6123-1006-47a4-aa1e-955538b889a9",
+    "data": [
+      {
+        "text": "I do not need navigation anymore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87dd702a-742d-4922-9394-5f0e4675e983",
+    "data": [
+      {
+        "text": "turn off navigation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8230b6a6-0830-4f79-ad81-9b9f96ea6f71",
+    "data": [
+      {
+        "text": "shut it down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7d244d8a-9662-449c-87e1-2f81acf05252",
+    "data": [
+      {
+        "text": "stop navigation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3a10a4a6-ebc6-41df-9cba-182581fe114a",
+    "data": [
+      {
+        "text": "I do not need it anymore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cde99ae6-24f7-48f2-b8b3-8e2c8a95674b",
+    "data": [
+      {
+        "text": "navigation off",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

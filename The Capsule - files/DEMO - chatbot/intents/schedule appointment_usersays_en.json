@@ -1,0 +1,145 @@
+[
+  {
+    "id": "af86b2d9-a678-4d2a-ae05-a9c4e1d854cf",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2818717e-784a-44e3-8399-6ca6e3831ee2",
+    "data": [
+      {
+        "text": "Intern application",
+        "userDefined": true
+      },
+      {
+        "text": " appointment at ",
+        "userDefined": false
+      },
+      {
+        "text": "6 PM tomorrow",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "df40f68e-1c57-45a4-8e61-2bab0240a4e1",
+    "data": [
+      {
+        "text": "set an appointment for a ",
+        "userDefined": false
+      },
+      {
+        "text": "job interview",
+        "userDefined": false
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "4 PM",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3b4c509-61fe-4de6-ab65-eac2ab09ba87",
+    "data": [
+      {
+        "text": "I would like to schedule an appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0bb4449a-8ab9-4149-871e-b2a0d5692200",
+    "data": [
+      {
+        "text": "set an appointment at ",
+        "userDefined": false
+      },
+      {
+        "text": "3 PM",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33ca84d8-634a-46d9-9b9b-255a0e3951d7",
+    "data": [
+      {
+        "text": "I would like to schedule an appointment at ",
+        "userDefined": false
+      },
+      {
+        "text": "4 PM",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "565b845a-29b6-4841-8965-4418d6d24148",
+    "data": [
+      {
+        "text": "Appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "5:30 PM",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

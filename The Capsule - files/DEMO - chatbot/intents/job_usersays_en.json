@@ -1,0 +1,80 @@
+[
+  {
+    "id": "8552bf12-a709-4d18-b69d-2e865415b547",
+    "data": [
+      {
+        "text": "I want to apply for work",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c2ad6d3-154f-4ff4-bc36-ecadf36d4d88",
+    "data": [
+      {
+        "text": "I want to apply for a job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e46fe1b-9361-49fc-ac81-099a550bdc19",
+    "data": [
+      {
+        "text": "Can I work at your company?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1bb6d3fc-1a44-41f4-99ec-a36b792bdcb6",
+    "data": [
+      {
+        "text": "I need a job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "71853908-88a1-42d2-bc76-7d2bb87b3027",
+    "data": [
+      {
+        "text": "Are you hiring right now?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "352fc9d0-24bf-465c-bc11-43e7a10371aa",
+    "data": [
+      {
+        "text": "Do you currently have any job opennings?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

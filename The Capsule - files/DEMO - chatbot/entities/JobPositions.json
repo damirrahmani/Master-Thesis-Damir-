@@ -1,0 +1,9 @@
+{
+  "id": "c71035e3-5d37-4768-b890-207b2e9c2725",
+  "name": "JobPositions",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

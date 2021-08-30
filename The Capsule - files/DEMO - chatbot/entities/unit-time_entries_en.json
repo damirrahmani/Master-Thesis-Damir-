@@ -1,0 +1,56 @@
+[
+  {
+    "value": "ms",
+    "synonyms": [
+      "ms",
+      "milisec",
+      "milisecond",
+      "miliseconds"
+    ]
+  },
+  {
+    "value": "year",
+    "synonyms": [
+      "year",
+      "years"
+    ]
+  },
+  {
+    "value": "minutes",
+    "synonyms": [
+      "minutes"
+    ]
+  },
+  {
+    "value": "month",
+    "synonyms": [
+      "month",
+      "months",
+      "mo"
+    ]
+  },
+  {
+    "value": "day",
+    "synonyms": [
+      "day",
+      "days"
+    ]
+  },
+  {
+    "value": "week",
+    "synonyms": [
+      "week",
+      "weeks",
+      "wks",
+      "wk"
+    ]
+  },
+  {
+    "value": "h",
+    "synonyms": [
+      "h",
+      "hour",
+      "hours"
+    ]
+  }
+]

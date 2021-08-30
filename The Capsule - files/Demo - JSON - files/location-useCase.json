@@ -1,0 +1,16 @@
+
+
+{
+  "platform": "ZOHOSALESIQ",
+  "replies": [
+    "Choose a location"
+  ],
+  "input": {
+    "type": "location",
+    "lat": "37.686318",
+    "lng": "-121.893427",
+    "radius": "2 kms",
+    "label":"Share Location",
+    "select_label":"Send my locale"
+  }
+}

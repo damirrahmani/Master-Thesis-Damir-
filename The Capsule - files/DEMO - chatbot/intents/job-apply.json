@@ -1,0 +1,66 @@
+{
+  "id": "1ebab7fe-e88c-4a7f-a878-6aaa3790336a",
+  "name": "job-apply",
+  "auto": true,
+  "contexts": [
+    "job"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "job",
+          "lifespan": 5
+        },
+        {
+          "name": "job-apply",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d5d71742-13fd-4df9-a70f-52c8abbe2bba",
+          "name": "jobpositions",
+          "required": true,
+          "dataType": "@JobPositions",
+          "value": "$jobpositions",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For what position are you applying?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I need some additional information. Type OK when ready."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "3baa4bb0-3298-40d6-8a66-1bd789c62e30",
+    "data": [
+      {
+        "text": "Great I will apply",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d04b0451-5299-41b4-b358-84410ea5bb33",
+    "data": [
+      {
+        "text": "Content Writer",
+        "meta": "@JobPositions",
+        "alias": "jobpositions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "769cd6e3-72c7-490c-a20f-6b88b20398fc",
+    "data": [
+      {
+        "text": "Intern",
+        "meta": "@JobPositions",
+        "alias": "jobpositions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ac5e73e3-b3b2-4a4a-8280-265577675471",
+    "data": [
+      {
+        "text": "Programmer",
+        "meta": "@JobPositions",
+        "alias": "jobpositions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

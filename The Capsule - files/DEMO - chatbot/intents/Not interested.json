@@ -1,0 +1,73 @@
+{
+  "id": "769d38ff-f39f-4a61-9a57-bf4be577e62d",
+  "name": "Not interested",
+  "auto": true,
+  "contexts": [
+    "job"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "job",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e2dfc8b0-cd8f-4e23-b984-b2791df724c4",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "That\u0027s unfortunate. Please leave your email address so that we can inform you about upcoming job positions:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you. Have a nice day!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

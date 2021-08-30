@@ -1,0 +1,27 @@
+[
+  {
+    "value": "Programmer",
+    "synonyms": [
+      "Programmer",
+      "Coder",
+      "Developer"
+    ]
+  },
+  {
+    "value": "Content Writer",
+    "synonyms": [
+      "Content Writer",
+      "Content Creator",
+      "Writer"
+    ]
+  },
+  {
+    "value": "Intern",
+    "synonyms": [
+      "Intern",
+      "Assistant",
+      "Junior Assistant",
+      "Practicant"
+    ]
+  }
+]

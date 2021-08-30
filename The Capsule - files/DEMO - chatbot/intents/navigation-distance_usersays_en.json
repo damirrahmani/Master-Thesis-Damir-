@@ -1,0 +1,165 @@
+[
+  {
+    "id": "1197eb36-a6ce-4e1b-ae2e-d6d3248331c6",
+    "data": [
+      {
+        "text": "estimate distance required to reach ",
+        "userDefined": false
+      },
+      {
+        "text": "Skynet",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c7c9309e-1d47-48be-8d68-741d029c9eab",
+    "data": [
+      {
+        "text": "estimate distance required to ",
+        "userDefined": false
+      },
+      {
+        "text": "company",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2ec3f54c-ace7-445b-9d83-441bf0735857",
+    "data": [
+      {
+        "text": "how far is ",
+        "userDefined": false
+      },
+      {
+        "text": "Skynet",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0068666f-51f4-49c8-82ec-75d67917de63",
+    "data": [
+      {
+        "text": "is this route longer than ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "km",
+        "meta": "@sys.unit-length-name",
+        "alias": "unit-length-name",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91cd7a99-eee4-489a-af64-ab86e65cb297",
+    "data": [
+      {
+        "text": "how far is my destination point?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2169fa0b-7730-4f23-a87a-58e2fcb22675",
+    "data": [
+      {
+        "text": "what is the distance to the ",
+        "userDefined": false
+      },
+      {
+        "text": "destination",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": true
+      },
+      {
+        "text": " point?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "97c76a67-547a-46f9-af2c-86f52af4bd8c",
+    "data": [
+      {
+        "text": "how many ",
+        "userDefined": false
+      },
+      {
+        "text": "kilometers",
+        "meta": "@sys.unit-length-name",
+        "alias": "unit-length-name",
+        "userDefined": false
+      },
+      {
+        "text": " are left to get to ",
+        "userDefined": false
+      },
+      {
+        "text": "Skynet",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
